@@ -20,7 +20,17 @@ My strengths include learning quickly, accountability and a commitment to qualit
 -**Other:** Linux, Jira, Computer network
 
 ##Code examples:
-All the code I wrote (Java, JS) can be found at the link:
+[Kata 8 kyu - Calculate average](https://www.codewars.com/kata/57a2013acf1fa5bfc4000921):
+function findAverage(array) {
+    if(array.length === 0){
+        return 0;
+    } else {
+        let sum = array.reduce((acc, cur) => acc+cur, 0);
+        return sum/array.length;
+    }
+}
+
+Other code examples (Java, JS) can be found at the link:
 [github.com/iamdeome](https://github.com/iamdeome)
 
 ##Working Experience:
