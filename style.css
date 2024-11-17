@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -23,9 +24,6 @@ main {
 
 header {
     text-align: center;
-    background-color: #0073e6;
-    color: #fff;
-    padding: 20px 0;
 }
 
 header h1 {
@@ -46,6 +44,60 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-weight: bold;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+pre code {
+    display: block;
+    color: #333;
+    font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer img {
+    width: 30px;
+    vertical-align: middle;
 }
